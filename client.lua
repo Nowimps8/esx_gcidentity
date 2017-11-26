@@ -64,18 +64,7 @@ RegisterNetEvent("gc:showItentity")
 AddEventHandler("gc:showItentity", function(data)
   openGuiIdentity(data)
 end)
- 
-RegisterNetEvent("gc:showRegisterItentity")
-AddEventHandler("gc:showRegisterItentity", function()
-  openGuiRegisterIdentity()
-end)
- 
- 
-RegisterNUICallback('register', function(data, cb)
-    closeGui()
-    TriggerServerEvent('gc:setIdentity', data)
-    cb()
-end)
+
  
 --====================================================================================
 --  Gestion UI
@@ -87,11 +76,6 @@ function openGuiIdentity(data)
   menuIsOpen = 1
 end
  
-function openGuiRegisterIdentity()
-  SetNuiFocus(true)
-  SendNUIMessage({method = 'openGuiRegisterIdentity'})
-  menuIsOpen = 2
-end
  
 function closeGui()
   SetNuiFocus(false)
