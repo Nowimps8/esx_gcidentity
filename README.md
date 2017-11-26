@@ -1,7 +1,8 @@
-# esx_identity
+# esx_gcidentity
 ################
 CREDITS TO :
 GC Gannon for main script
+
 Chubbs for editing it for ESX
 ################
 FXserver ESX Identity
