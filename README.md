@@ -38,3 +38,5 @@ Citizen.CreateThread(function()
   end
 end)
 ```
+
+![alt text](https://image.prntscr.com/image/CiKwlfZSQSWdhHcnw1x2EQ.png)
