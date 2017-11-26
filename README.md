@@ -11,7 +11,9 @@ Chubbs for editing it for ESX
 
 
 ################
-FXserver ESX Identity
+
+
+FXserver ESX GCIdentity
 
 Credit to GC Gannon for "GCIdentity"
 
@@ -26,7 +28,7 @@ Edited by Chubbs
 3) Add this in your server.cfg :
 
 ```
-start esx_identity
+start esx_gcidentity
 ```
 To open the identity card just use
 
