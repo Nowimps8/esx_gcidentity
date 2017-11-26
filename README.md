@@ -21,3 +21,20 @@ To open the identity card just use
 ```
 TriggerEvent("gcl:showItentity", ...)
 ```
+
+You can press E to see if you did it right ( A ID will appear on the screen ) 
+
+then to take that out go to client.lua
+
+remove this code
+
+```
+Citizen.CreateThread(function()
+  while true do
+    Citizen.Wait(0)
+    if IsControlPressed(1,  38) then
+      TriggerServerEvent('gc:openMeIdentity')
+    end
+  end
+end)
+```
