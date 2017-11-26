@@ -1,4 +1,9 @@
 # esx_identity
+################
+CREDITS TO :
+GC Gannon for main script
+Chubbs for editing it for ESX
+################
 FXserver ESX Identity
 
 Credit to GC Gannon for "GCIdentity"
