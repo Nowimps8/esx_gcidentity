@@ -23,7 +23,9 @@ Edited by Chubbs
 
 Fixed by Nowimps8
 
-REQUIRES: ESX_identity: https://github.com/ESX-Org/esx_identity 
+[REQUIRES] 
+
+ESX_identity: https://github.com/ESX-Org/esx_identity 
 
 [INSTALLATION]
 
