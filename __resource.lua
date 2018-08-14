@@ -22,3 +22,7 @@ server_scripts {
 
 }
 
+dependencies {
+	'esx_identity'
+}
+
