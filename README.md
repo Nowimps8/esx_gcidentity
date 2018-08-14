@@ -21,6 +21,9 @@ Credit to GC Gannon for "GCIdentity"
 
 Edited by Chubbs
 
+Fixed by Nowimps8
+
+REQUIRES: ESX_identity: https://github.com/ESX-Org/esx_identity 
 [INSTALLATION]
 
 1) CD in your resources/[esx] folder
