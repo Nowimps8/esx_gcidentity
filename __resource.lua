@@ -5,7 +5,7 @@ files {
 	'html/ui.html',
 	'html/style.css',
 	'html/script.js',
-	'html/carteV3_h.png',
+	'html/carteV3_m.png',
 	'html/carteV3_f.png',
 	'html/cursor.png'
 }
