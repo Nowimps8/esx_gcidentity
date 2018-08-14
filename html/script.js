@@ -12,10 +12,10 @@ GUIAction = {
         }
         if (data.sexe !== undefined) {
             $('#identity').css('background-image', "url('carteV3_" + data.sexe +".png')")
-            data.sexe = data.sexe === 'h' ? 'Male' : 'Female'
+            data.sexe = data.sexe === 'm' ? 'Male' : 'Female'
         }
         if (data.taille !== undefined){
-            data.taille = data.taille + ' cm'
+            data.taille = data.taille + ' '
         }
         ['nom','prenom','jobs', 'dateNaissance', 'sexe', 'taille'].forEach(k => {
             $('#'+k).text(data[k] || infoMissing)
